@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FedEx Tracking</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>FedEx Tracking</h1>
+    <form id="trackingForm">
+        <label for="tracking_number">Enter Tracking Number:</label>
+        <input type="text" id="tracking_number" name="tracking_number" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="tracking_info"></div>
+
+    <script>
+        $(document).ready(function() {
+            $('#trackingForm').on('submit', function(e) {
+                e.preventDefault();
+
+                var tracking_number = $('#tracking_number').val();
+                $.ajax({
+                    url: '/track',
+                    method: 'POST',
+                    data: { tracking_number: tracking_number },
+                    success: function(response) {
+                        $('#tracking_info').html('<pre>' + JSON.stringify(response, null, 4) + '</pre>');
+                    },
+                    error: function(xhr, status, error) {
+                        $('#tracking_info').html('<p>Error retrieving tracking info</p>');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

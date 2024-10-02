@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header/>
+  <SOAP-ENV:Body>
+    <TrackReply xmlns="http://fedex.com/ws/track/v16">
+      <HighestSeverity>SUCCESS</HighestSeverity>
+      <Notifications>
+        <Severity>SUCCESS</Severity>
+        <Source>trck</Source>
+        <Code>0</Code>
+        <Message>Request was successfully processed</Message>
+        <LocalizedMessage>Request was successfully processed</LocalizedMessage>
+      </Notifications>
+      <TransactionDetail>
+        <Localization>
+          <LanguageCode>EN</LanguageCode>
+          <LocaleCode>US</LocaleCode>
+        </Localization>
+      </TransactionDetail>
+      <Version>
+        <ServiceId>trck</ServiceId>
+        <Major>16</Major>
+        <Intermediate>0</Intermediate>
+        <Minor>0</Minor>
+      </Version>
+      <CompletedTrackDetails>
+        <HighestSeverity>SUCCESS</HighestSeverity>
+        <Notifications>
+          <Severity>SUCCESS</Severity>
+          <Source>trck</Source>
+          <Code>0</Code>
+        </Notifications>
+        <DuplicateWaybill>false</DuplicateWaybill>
+        <MoreData>false</MoreData>
+        <TrackDetailsCount>1</TrackDetailsCount>
+        <TrackDetails>
+          <Notification>
+            <Severity>SUCCESS</Severity>
+            <Source>trck</Source>
+            <Code>0</Code>
+            <Message>Request was successfully processed</Message>
+            <LocalizedMessage>Request was successfully processed</LocalizedMessage>
+          </Notification>
+          <TrackingNumber>278966331042</TrackingNumber>
+          <TrackingNumberUniqueIdentifier>12028~278966331042~FDEG</TrackingNumberUniqueIdentifier>
+          <StatusDetail>
+            <CreationTime>2024-09-09T00:00:00</CreationTime>
+            <Code>DL</Code>
+            <Description>Delivered</Description>
+            <Location>
+              <City>Stockton</City>
+              <StateOrProvinceCode>CA</StateOrProvinceCode>
+              <CountryCode>US</CountryCode>
+              <CountryName>United States</CountryName>
+              <Residential>false</Residential>
+            </Location>
+          </StatusDetail>
+          <CarrierCode>FDXG</CarrierCode>
+          <OperatingCompanyOrCarrierDescription>FedEx Ground</OperatingCompanyOrCarrierDescription>
+          <OtherIdentifiers>
+            <PackageIdentifier>
+              <Type>CUSTOMER_REFERENCE</Type>
+              <Value>1725163385469</Value>
+            </PackageIdentifier>
+          </OtherIdentifiers>
+          <Service>
+            <Type>FEDEX_GROUND</Type>
+            <Description>FedEx Ground</Description>
+            <ShortDescription>FG</ShortDescription>
+          </Service>
+          <PackageWeight>
+            <Units>LB</Units>
+            <Value>2.9</Value>
+          </PackageWeight>
+          <PackageDimensions>
+            <Length>16</Length>
+            <Width>12</Width>
+            <Height>4</Height>
+            <Units>IN</Units>
+          </PackageDimensions>
+          <Packaging>Package</Packaging>
+          <PackagingType>YOUR_PACKAGING</PackagingType>
+          <PhysicalPackagingType>PACKAGE</PhysicalPackagingType>
+          <PackageSequenceNumber>1</PackageSequenceNumber>
+          <PackageCount>1</PackageCount>
+          <ReturnDetail>
+            <LabelType>PRINT</LabelType>
+            <Description>Print Return Label</Description>
+          </ReturnDetail>
+          <SpecialHandlings>
+            <Type>PACKAGE_RETURN_PROGRAM</Type>
+            <Description>Package Returns Program</Description>
+            <PaymentType>OTHER</PaymentType>
+          </SpecialHandlings>
+          <Payments>
+            <Classification>TRANSPORTATION</Classification>
+            <Type>SHIPPER_ACCOUNT</Type>
+            <Description>Shipper</Description>
+          </Payments>
+          <Shipper/>
+          <ShipperAddress>
+            <City>Driggs</City>
+            <StateOrProvinceCode>ID</StateOrProvinceCode>
+            <CountryCode>US</CountryCode>
+            <CountryName>United States</CountryName>
+            <Residential>false</Residential>
+          </ShipperAddress>
+          <OriginLocationAddress>
+            <City>POCATELLO</City>
+            <StateOrProvinceCode>ID</StateOrProvinceCode>
+            <CountryCode>US</CountryCode>
+            <CountryName>United States</CountryName>
+            <Residential>false</Residential>
+          </OriginLocationAddress>
+          <DatesOrTimes>
+            <Type>ACTUAL_DELIVERY</Type>
+            <DateOrTimestamp>2024-09-09T11:19:36-07:00</DateOrTimestamp>
+          </DatesOrTimes>
+          <DatesOrTimes>
+            <Type>ACTUAL_PICKUP</Type>
+            <DateOrTimestamp>2024-09-05T00:00:00</DateOrTimestamp>
+          </DatesOrTimes>
+          <DatesOrTimes>
+            <Type>SHIP</Type>
+            <DateOrTimestamp>2024-09-05T00:00:00</DateOrTimestamp>
+          </DatesOrTimes>
+          <DatesOrTimes>
+            <Type>ACTUAL_TENDER</Type>
+            <DateOrTimestamp>2024-09-05T00:00:00</DateOrTimestamp>
+          </DatesOrTimes>
+          <DatesOrTimes>
+            <Type>ANTICIPATED_TENDER</Type>
+            <DateOrTimestamp>2024-09-01T00:00:00</DateOrTimestamp>
+          </DatesOrTimes>
+          <Recipient/>
+          <DestinationAddress>
+            <City>Stockton</City>
+            <StateOrProvinceCode>CA</StateOrProvinceCode>
+            <CountryCode>US</CountryCode>
+            <CountryName>United States</CountryName>
+            <Residential>false</Residential>
+          </DestinationAddress>
+          <ActualDeliveryAddress>
+            <City>Stockton</City>
+            <StateOrProvinceCode>CA</StateOrProvinceCode>
+            <CountryCode>US</CountryCode>
+            <CountryName>United States</CountryName>
+            <Residential>false</Residential>
+          </ActualDeliveryAddress>
+          <DeliveryAttempts>0</DeliveryAttempts>
+          <DeliverySignatureName>LFLORES</DeliverySignatureName>
+          <TotalUniqueAddressCountInConsolidation>0</TotalUniqueAddressCountInConsolidation>
+          <AvailableImages>
+            <Type>SIGNATURE_PROOF_OF_DELIVERY</Type>
+          </AvailableImages>
+          <NotificationEventsAvailable>ON_DELIVERY</NotificationEventsAvailable>
+          <DeliveryOptionEligibilityDetails>
+            <Option>INDIRECT_SIGNATURE_RELEASE</Option>
+            <Eligibility>INELIGIBLE</Eligibility>
+          </DeliveryOptionEligibilityDetails>
+          <DeliveryOptionEligibilityDetails>
+            <Option>REDIRECT_TO_HOLD_AT_LOCATION</Option>
+            <Eligibility>INELIGIBLE</Eligibility>
+          </DeliveryOptionEligibilityDetails>
+          <DeliveryOptionEligibilityDetails>
+            <Option>REROUTE</Option>
+            <Eligibility>INELIGIBLE</Eligibility>
+          </DeliveryOptionEligibilityDetails>
+          <DeliveryOptionEligibilityDetails>
+            <Option>RESCHEDULE</Option>
+            <Eligibility>INELIGIBLE</Eligibility>
+          </DeliveryOptionEligibilityDetails>
+          <Events>
+            <Timestamp>2024-09-09T11:19:36-07:00</Timestamp>
+            <EventType>DL</EventType>
+            <EventDescription>Delivered</EventDescription>
+            <Address>
+              <City>Stockton</City>
+              <StateOrProvinceCode>CA</StateOrProvinceCode>
+              <PostalCode>95215</PostalCode>
+              <CountryCode>US</CountryCode>
+              <CountryName>United States</CountryName>
+              <Residential>false</Residential>
+            </Address>
+            <ArrivalLocation>DELIVERY_LOCATION</ArrivalLocation>
+          </Events>
+          <Events>
+            <Timestamp>2024-09-09T07:11:00-07:00</Timestamp>
+            <EventType>OD</EventType>
+            <EventDescription>On FedEx vehicle for delivery</EventDescription>
+            <Address>
+              <City>TRACY</City>
+              <StateOrProvinceCode>CA</StateOrProvinceCode>
+              <PostalCode>95377</PostalCode>
+              <CountryCode>US</CountryCode>
+              <CountryName>United States</CountryName>
+              <Residential>false</Residential>
+            </Address>
+            <ArrivalLocation>VEHICLE</ArrivalLocation>
+          </Events>
+          <Events>
+            <Timestamp>2024-09-09T06:18:00-07:00</Timestamp>
+            <EventType>AR</EventType>
+            <EventDescription>At local FedEx facility</EventDescription>
+            <Address>
+              <City>TRACY</City>
+              <StateOrProvinceCode>CA</StateOrProvinceCode>
+              <PostalCode>95377</PostalCode>
+              <CountryCode>US</CountryCode>
+              <CountryName>United States</CountryName>
+              <Residential>false</Residential>
+            </Address>
+            <ArrivalLocation>DESTINATION_FEDEX_FACILITY</ArrivalLocation>
+          </Events>
+          <Events>
+            <Timestamp>2024-09-07T13:12:00-07:00</Timestamp>
+            <EventType>AR</EventType>
+            <EventDescription>Arrived at FedEx location</EventDescription>
+            <Address>
+              <City>TRACY</City>
+              <StateOrProvinceCode>CA</StateOrProvinceCode>
+              <PostalCode>95377</PostalCode>
+              <CountryCode>US</CountryCode>
+              <CountryName>United States</CountryName>
+              <Residential>false</Residential>
+            </Address>
+            <ArrivalLocation>FEDEX_FACILITY</ArrivalLocation>
+          </Events>
+          <Events>
+            <Timestamp>2024-09-07T05:33:54-07:00</Timestamp>
+            <EventType>IT</EventType>
+            <EventDescription>On the way</EventDescription>
+            <Address>
+              <City>LODI</City>
+              <StateOrProvinceCode>CA</StateOrProvinceCode>
+              <PostalCode>95242</PostalCode>
+              <CountryCode>US</CountryCode>
+              <CountryName>United States</CountryName>
+              <Residential>false</Residential>
+            </Address>
+            <ArrivalLocation>VEHICLE</ArrivalLocation>
+          </Events>
+          <Events>
+            <Timestamp>2024-09-06T15:49:26-07:00</Timestamp>
+            <EventType>IT</EventType>
+            <EventDescription>On the way</EventDescription>
+            <Address>
+              <City>ROCKLIN</City>
+              <StateOrProvinceCode>CA</StateOrProvinceCode>
+              <PostalCode>95677</PostalCode>
+              <CountryCode>US</CountryCode>
+              <CountryName>United States</CountryName>
+              <Residential>false</Residential>
+            </Address>
+            <ArrivalLocation>VEHICLE</ArrivalLocation>
+          </Events>
+          <Events>
+            <Timestamp>2024-09-06T04:45:24-06:00</Timestamp>
+            <EventType>DP</EventType>
+            <EventDescription>Departed FedEx location</EventDescription>
+            <Address>
+              <City>MAGNA</City>
+              <StateOrProvinceCode>UT</StateOrProvinceCode>
+              <PostalCode>84044</PostalCode>
+              <CountryCode>US</CountryCode>
+              <CountryName>United States</CountryName>
+              <Residential>false</Residential>
+            </Address>
+            <ArrivalLocation>FEDEX_FACILITY</ArrivalLocation>
+          </Events>
+          <Events>
+            <Timestamp>2024-09-06T00:20:00-06:00</Timestamp>
+            <EventType>AR</EventType>
+            <EventDescription>Arrived at FedEx location</EventDescription>
+            <Address>
+              <City>MAGNA</City>
+              <StateOrProvinceCode>UT</StateOrProvinceCode>
+              <PostalCode>84044</PostalCode>
+              <CountryCode>US</CountryCode>
+              <CountryName>United States</CountryName>
+              <Residential>false</Residential>
+            </Address>
+            <ArrivalLocation>FEDEX_FACILITY</ArrivalLocation>
+          </Events>
+          <Events>
+            <Timestamp>2024-09-05T20:47:33-06:00</Timestamp>
+            <EventType>DP</EventType>
+            <EventDescription>Left FedEx origin facility</EventDescription>
+            <Address>
+              <City>POCATELLO</City>
+              <StateOrProvinceCode>ID</StateOrProvinceCode>
+              <PostalCode>83204</PostalCode>
+              <CountryCode>US</CountryCode>
+              <CountryName>United States</CountryName>
+              <Residential>false</Residential>
+            </Address>
+            <ArrivalLocation>ORIGIN_FEDEX_FACILITY</ArrivalLocation>
+          </Events>
+          <Events>
+            <Timestamp>2024-09-05T19:23:00-06:00</Timestamp>
+            <EventType>AR</EventType>
+            <EventDescription>Arrived at FedEx location</EventDescription>
+            <Address>
+              <City>POCATELLO</City>
+              <StateOrProvinceCode>ID</StateOrProvinceCode>
+              <PostalCode>83204</PostalCode>
+              <CountryCode>US</CountryCode>
+              <CountryName>United States</CountryName>
+              <Residential>false</Residential>
+            </Address>
+            <ArrivalLocation>FEDEX_FACILITY</ArrivalLocation>
+          </Events>
+          <Events>
+            <Timestamp>2024-09-05T16:49:00-06:00</Timestamp>
+            <EventType>PU</EventType>
+            <EventDescription>Picked up</EventDescription>
+            <Address>
+              <City>POCATELLO</City>
+              <StateOrProvinceCode>ID</StateOrProvinceCode>
+              <PostalCode>83204</PostalCode>
+              <CountryCode>US</CountryCode>
+              <CountryName>United States</CountryName>
+              <Residential>false</Residential>
+            </Address>
+            <ArrivalLocation>PICKUP_LOCATION</ArrivalLocation>
+          </Events>
+        </TrackDetails>
+      </CompletedTrackDetails>
+    </TrackReply>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
